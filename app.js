@@ -1,5 +1,5 @@
 window.onload=function(){
- var color=["red","blue","grey","rgb(241, 170, 170)","white"];
+ var color=["red","blue","grey","green","white","cyan","purple","yellow","pink","silver","black","maroon","olive","lime","aqua","navy", "teal","fuchsia"];
 
  const btn= document.getElementById('btn');
  const text= document.querySelector('.color');
