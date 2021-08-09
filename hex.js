@@ -4,7 +4,7 @@
   const btn=document.getElementById("btn");
   const text=document.querySelector(".color");
      var hexColor;
-  document.addEventListener('click', function(){
+  btn.addEventListener('click', function(){
      console.log("color changed");
       let hexColor='#';
       for(var i=0;i<6;i++){       //getting random no.so as to point to the index of the array and we acan take the element of the array from that index
